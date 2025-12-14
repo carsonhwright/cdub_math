@@ -7,13 +7,8 @@ from prime_utils import get_primes_less_than as gplt
 MAX_PRIME_SAFE = 10000000 #10m
 
 def main():
-    # primes = gplt(MAX_PRIME_SAFE)
     n2_primes, _ = get_n2_primes(MAX_PRIME_SAFE)
-    # diff_reg = regularity_diff_n2_primes(n2_primes)
-    # n_to_m_reg = n_to_m_in_diff_regularity(diff_reg)
-    # pprint(n2_primes)
-    breakpoint()
-    # for idx in range(len(MAX_PRIME_SAFE)):
+
 
 def get_n2_primes(largest):
     """Find all the primes less than largest that are of the form
